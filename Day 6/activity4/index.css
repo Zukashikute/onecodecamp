@@ -1,0 +1,11 @@
+.timeSectionStyles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#buttonContainer {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating a Timer Using Asynchronous JS</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <article>
+      <ol>
+        <li>Prompt the user to enter a time between 1 to 60</li>
+        <li>
+          Using DOM Manipulation, create a timer displaying the value input as
+          the time in minutes, and ‘00’ as the time in seconds.
+        </li>
+        <li>
+          Create two buttons: the start button and the reset button
+          <ul>
+            <li>
+              The start button starts the timer. Using asynchronous JS, create a
+              loop where the value of the time in seconds decrements by 1 every
+              second. If the time in seconds is at 0 and there is still time
+              remaining in minutes, decrement the time in minutes by 1, and set
+              the time in seconds to 59. Repeat until the timer reads 00:00,
+              after which the user will be alerted that the time is up.
+            </li>
+            <li>
+              The reset button sets the time in minutes and the time in seconds
+              to 0.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </article>
+
+    <section id="timeSection" class="timeSectionStyles">
+      <!-- <div id="buttonContainer">
+        
+      </div>
+      <div id="timeContainer"></div> -->
+    </section>
+  </body>
+</html>

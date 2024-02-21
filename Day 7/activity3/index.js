@@ -91,7 +91,8 @@ class Swordsman extends Character {
    }
 
    showStats() {
-      console.log("I am powerful!") + super.showStats()
+      console.log("I am powerful!");
+      super.showStats()
    }
 }
 

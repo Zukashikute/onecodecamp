@@ -66,13 +66,9 @@ class Shaman extends Character {
 
    heal(action) {
       let healAction = action * 5
-      if (healAction > this.stamina) {
-         "Not enough stamina"
-      } else {
-         this.health += healAction;
-         this.stamina += healAction;
-         this.manna += healAction;
-      }
+      this.health += healAction;
+      this.stamina += healAction;
+      this.manna += healAction;
 
    }
 }

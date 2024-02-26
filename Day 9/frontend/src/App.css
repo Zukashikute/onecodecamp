@@ -1,0 +1,41 @@
+#root {
+  width: 100%;
+}
+
+hr {
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.childContainer div:last-child hr {
+  display: none;
+}
+
+.programmingLanguageContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1;
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.childImg {
+  margin-top: 2rem;
+  max-width: 250px;
+  max-height: 250px;
+  width: 100%;
+  height: 100%;
+}
+
+.childDesc {
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}

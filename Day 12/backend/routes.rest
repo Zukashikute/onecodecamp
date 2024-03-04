@@ -1,0 +1,41 @@
+
+### GET REQUEST Get all books (All Books)
+GET http://localhost:3000/books/ HTTP/1.1
+content-type: application/json
+
+
+### GET REQUEST Get a book (Single Book)
+GET http://localhost:3000/books/65e532136861b130e006f0c5 HTTP/1.1
+content-type: application/json
+
+### POST REQUEST Create a book
+POST http://localhost:3000/books/ HTTP/1.1
+content-type: application/json
+
+{
+   "title": "The Final Empire",
+    "author": "Brandon Sanderson",
+    "rating": 9,
+    "pages": 420,
+    "genres": ["fantasy", "magic"],
+    "reviews": [
+    { "name": "Shaun", "body": "Couldn't put this book down."},
+    { "name": "Chun-li", "body": "Love it."}
+    ]
+}
+
+### UPDATE REQUEST Create a book
+PUT http://localhost:3000/books/65e58ccf61ebfdd54d6d9aae HTTP/1.1
+content-type: application/json
+
+{
+   "title": "The Final Empire"
+}
+
+### DELETE REQUEST Create a book
+DELETE http://localhost:3000/books/id HTTP/1.1
+content-type: application/json
+
+
+
+

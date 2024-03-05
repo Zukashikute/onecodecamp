@@ -25,6 +25,7 @@ const connectDb = callback => {
          callback(err)
       });
 }
+
 const getDb = () => {
    if (!db) {
       throw Error("Db not initialized")
